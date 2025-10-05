@@ -71,10 +71,11 @@ npm install
 # Start the development server
 npm start
 
+---
 
-
-##Author
+#Author
 
 Saurabh Sonvane
 [GitHub](https://github.com/saurabh-sonvane)
+
 [LinkedIn](https://www.linkedin.com/in/saurabh-sonvane-64106017b/)
