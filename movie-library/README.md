@@ -1,4 +1,4 @@
-<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/b2b21b1a-6324-4374-82e4-e63c60a186ca" /># Movie Library — Verto Frontend Assignment
+Assignment
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
@@ -32,11 +32,13 @@ This project allows users to **search movies**, **add/remove them from a watchli
 
 **Homepage — showing popular movies on load**  
 <img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/9b0ca1d6-e663-4ebc-82f2-caf4bcd3ecd7" />
- 
+
+ ---
 
 **Search Feature — find movies by name**  
 <img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/60048331-280b-41d0-b5b3-04965abad60b" />
 
+---
 
 **Watchlist — add or remove movies easily**  
 <img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/2e43d18c-59a4-4be9-86c5-d8496fe9659f" />
