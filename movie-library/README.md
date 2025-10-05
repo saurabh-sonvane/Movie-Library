@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Movie Library — Verto Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+[![TMDb](https://img.shields.io/badge/TMDb-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)](https://www.themoviedb.org/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+A simple and interactive **Movie Library** built as part of the **Verto Frontend Assignment**.  
+This project allows users to **search movies**, **add/remove them from a watchlist**, and view details — powered by **The Movie Database (TMDb) API**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
+[View Movie Library](https://movie-library-verto.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Search Movies** – Instantly search movies from TMDb API  
+- **Add to Watchlist** – Save favorite movies for later  
+- **Remove from Watchlist** – Manage your saved collection easily  
+- **Responsive Design** – Works smoothly across all devices  
+- **Powered by React + Redux Toolkit** for efficient state management
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Snapshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Homepage — showing popular movies on load**  
+*(Add your screenshot here)*  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Search Feature — find movies by name**  
+*(Add your screenshot here)*  
 
-### `npm run eject`
+**Watchlist — add or remove movies easily**  
+*(Add your screenshot here)*  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Technology | Purpose |
+|-------------|----------|
+| ReactJS | Frontend library for UI |
+| Redux Toolkit | State management |
+| TMDb API | Movie data source |
+| React Router DOM | Client-side routing |
+| Vercel | Deployment platform |
+| Node.js | Runtime environment |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Installation and Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repo and run locally:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash```
+# Clone this repository
+git clone https://github.com/saurabh-sonvane/Movie-Library.git
 
-### Code Splitting
+# Navigate to project directory
+cd Movie-Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+npm install
 
-### Analyzing the Bundle Size
+# Start the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Saurabh Sonvane
+[GitHub](https://github.com/saurabh-sonvane)
+[LinkedIn](https://www.linkedin.com/in/saurabh-sonvane-64106017b/)
