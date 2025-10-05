@@ -73,6 +73,16 @@ cd Movie-Library
 # Install dependencies
 npm install
 
+# Create a TMDb API Key
+1. Go to [TMDb](https://www.themoviedb.org/) website
+2. Log in or create an account.
+3. Navigate to Profile > Settings > API.
+4. Create a new API key.
+
+# Add API Key
+1. In the project root, create a file called .env.local
+2. REACT_APP_TMDB_API_KEY=your_api_key_here
+
 # Start the development server
 npm start
 
