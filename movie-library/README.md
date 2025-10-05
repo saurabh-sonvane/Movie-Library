@@ -1,4 +1,4 @@
-Assignment
+# Assignment
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
@@ -72,6 +72,16 @@ cd Movie-Library
 
 # Install dependencies
 npm install
+
+# Create a TMDb API Key
+1. Go to [TMDb](https://www.themoviedb.org/) website
+2. Log in or create an account.
+3. Navigate to Profile > Settings > API.
+4. Create a new API key.
+
+# Add API Key
+1. In the project root, create a file called .env.local
+2. REACT_APP_TMDB_API_KEY=your_api_key_here
 
 # Start the development server
 npm start
