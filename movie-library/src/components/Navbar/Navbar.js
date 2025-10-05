@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { searchMovieByTitle } from "../../store/slices/movieSlice";
+import { searchMovieByTitle, getPopularMovies } from "../../store/slices/movieSlice";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -15,6 +15,12 @@ const Navbar = () => {
       navigate("/");
     }
   };
+
+  useEffect((e)=>{
+     if(query==''){
+      dispatch(getPopularMovies());
+     }
+  },[query]);
 
   return (
     <nav className="navbar">
